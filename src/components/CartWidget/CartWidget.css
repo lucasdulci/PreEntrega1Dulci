@@ -1,0 +1,16 @@
+.cart  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart img {
+    width: 3rem;
+    height: 3rem;
+    
+}
+
+.cart:hover {
+    transform: scale(1.2);
+    transition: all .3s;
+}

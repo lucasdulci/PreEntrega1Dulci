@@ -1,0 +1,62 @@
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(194, 194, 202, 0.932);
+    top: 0;
+    padding: 1rem;
+  
+}
+
+.navegacion {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 8rem;
+    border-radius: 50%; 
+    display: flex;
+    cursor: pointer;
+}
+
+.logo img:hover {
+    transform: scale(1.1 );
+    width: auto;
+    transition:all 0.4s ;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+  padding:0 3rem ;
+}
+.nav-links li:hover {
+    transform: scale(1.2);
+    transition: all .3s;
+   
+}
+.nav-links a:hover{
+    color: rgb(112, 98, 98);
+    background-color: rgba(255, 255, 255, 0.596);
+    border-end-end-radius: 2rem;
+}
+
+a {
+    color: rgb(97, 82, 82);
+    font-size: 1.9rem;
+}
+
+
+
+
+
+
+    
