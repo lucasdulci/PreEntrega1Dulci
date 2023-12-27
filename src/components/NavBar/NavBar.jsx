@@ -1,35 +1,29 @@
-import { CartWidget } from "../CartWidget/CartWidget"
-import './Navbar.css'
+import { CartWidget } from "./CartWidget/CartWidget";
+import { Link } from "react-router-dom";
+import { MagicTabSelect } from "react-magic-motion";
+
+import "./NavBar.css";
 
 export const NavBar = () => {
-    return (
-     
-        <div className="barra ">
-            <nav className="navegacion">
-                <div className="logo">
-                    <a href="/">
-                        <img src="./img/logo.png" alt="" />
-                    </a>
-                </div>
-                <div className="nav-links">
-                <ul className="no-padding">
-                    <li>
-                        <a href="">Inicio</a>
-                    </li>
-                    <li className="">
-                        <a href="#">Contacto</a> 
-                    </li>
-                    <li>
-                        <a href="#">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="# ">Tienda</a>
-                    </li>
-                </ul>
-                </div>
-                <CartWidget/>
-            </nav>
-        </div>
-        
-    )
-}
+  return (
+    <div id="navbar">
+      <Link to="/" className="brand">
+        <img src="/img/logo/logo-white.png" alt="logotipo" />
+      </Link>
+      <ul>
+        <li>
+          <Link to="/categorias/sony">Sony</Link>
+        </li>
+        <li>
+          <Link to="/categorias/microsoft">Microsoft</Link>
+        </li>
+        <li>
+          <Link to="/categorias/nintendo">Nintendo</Link>
+        </li>
+      </ul>
+
+      <CartWidget />
+    </div>
+  );
+};
+

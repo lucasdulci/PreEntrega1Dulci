@@ -1,0 +1,18 @@
+.item-detail{
+    display: flex;
+    padding: 9% 10%;
+    background-color: #b8a180;
+  }
+  
+  .item-detail .imagen{
+    border-radius: 10%;
+    width: 350px;
+    height: 300px;
+  }
+  
+  .item-detail .texto{
+    width: 50%;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+  }

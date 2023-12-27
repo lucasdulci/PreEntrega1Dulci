@@ -1,58 +1,44 @@
-.barra {
+
+#navbar {
+    width: 100%;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(194, 194, 202, 0.932);
-    top: 0;
-    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.842);
+  }
+
+  #navbar .brand img {
+    width: 120px;
+    height: 100px;
+  }
   
-}
-
-.navegacion {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto; 
+  #navbar ul {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo img {
-    max-height: 8rem;
-    border-radius: 50%; 
-    display: flex;
-    cursor: pointer;
-}
-
-.logo img:hover {
-    transform: scale(1.1 );
-    width: auto;
-    transition:all 0.4s ;
-}
-
-.nav-links ul {
+  
+  }
+  
+  #navbar ul li{
+    height: 60px;
     list-style: none;
+    font-size: 18px;
+  }
+  
+  #navbar ul li a{
     display: flex;
-}
-
-.nav-links li {
-  padding:0 3rem ;
-}
-.nav-links li:hover {
-    transform: scale(1.2);
-    transition: all .3s;
-   
-}
-.nav-links a:hover{
-    color: rgb(112, 98, 98);
-    background-color: rgba(255, 255, 255, 0.596);
-    border-end-end-radius: 2rem;
-}
-
-a {
-    color: rgb(97, 82, 82);
-    font-size: 1.9rem;
-}
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 10px; 
+    padding: 0 15px;
+  }
+  
+  #navbar ul li a:hover{
+    background-color: rgb(77, 77, 77);
+    cursor: pointer ;
+    border-radius: 5px;
+  }
 
 
 
