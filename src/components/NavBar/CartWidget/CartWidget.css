@@ -1,21 +1,32 @@
-.cart  {
+.cart {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding-right: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+#carrito{  
     width: 70px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 30px;
     color: white;
-}
-
-.cart img {
+    margin: 0 40px;
+  }
+  
+  #carrito:hover{
+    background-color: rgb(77, 77, 77);
+    cursor: pointer ;
+  }
+  
+  #carrito img {
     width: 30px;
     height: 30px;
-    
-    
-}
+  }
+  
+  #carrito p {
+    margin: 0 5px;
+    text-decoration: none;
+  }
 
