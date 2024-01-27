@@ -1,9 +1,12 @@
 import { useContext, useState } from "react"
-import { Link } from "react-router-dom"
+
 import { Form } from "./Form"
+import { Link } from "react-router-dom"
 import { CartContext } from "../../context/CartContext"
 import { addDoc, collection } from "firebase/firestore"
 import db from "../../db/db"
+
+import "./CheckOut.css"
 
 export const CheckOut = () => {
 
@@ -57,7 +60,7 @@ export const CheckOut = () => {
                 <Form
                     datosForm={datosForm}
                     guardarDatosInput={guardarDatosInput}
-                    enviarOrder={enviarOrden}
+                    enviarOrden={enviarOrden}
                 />
             )}
         </div>

@@ -1,6 +1,5 @@
 import { CartWidget } from "./CartWidget/CartWidget";
 import { Link } from "react-router-dom";
-import { MagicTabSelect } from "react-magic-motion";
 
 import "./NavBar.css";
 
